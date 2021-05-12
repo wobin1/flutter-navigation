@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: ElevatedButton(
-          child: Text("Go to Login page"),
+          child: Text("Go to Login page."),
           onPressed: () => Navigator.pushNamed(context, route.loginPage),
         ),
       ),
